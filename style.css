@@ -1,0 +1,72 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #6B992A;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+h2 {
+    color: #093923;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #093923;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6B992A;
+}
+
+.hidden {
+    display: none;
+}
+
+#form-container {
+    background-color: #6B992A;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+#selo {
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    z-index: 999;
+}
